@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: #f4f4f4;
+}
+
+.hero {
+    background: linear-gradient(135deg, #2e7d32, #81c784);
+    color: white;
+    padding: 50px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero .img {
+    padding-left: 50px;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #ffeb3b;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.features, .testimonials, .cta {
+    padding: 50px 20px;
+    background: white;
+}
+
+.feature-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.feature {
+    background: #e0f7fa;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.feature:hover {
+    transform: translateY(-10px);
+}
+
+.testimonial-card {
+    background: #c8e6c9;
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+.cta {
+    background: #ffeb3b;
+}
+
+footer {
+    background: #2e7d32;
+    color: white;
+    padding: 20px;
+}
